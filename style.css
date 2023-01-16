@@ -75,6 +75,9 @@ body{
     border-radius: 50%;
     border: 2px solid rgba(255, 255, 255, 0.5);
 }
+.profile__active img{
+    border: solid 2px var(--Moderate-violet);
+}
 .profile__name{
     font-size: 1.3rem;
     color: var(--White);
@@ -106,9 +109,6 @@ body{
 }
 .white-card{
     color: var(--Very-dark-grayish-blue);
-}
-.profile__active img{
-    border: solid 2px var(--Moderate-violet);
 }
 @media(max-width: 1250px){
     .main{
